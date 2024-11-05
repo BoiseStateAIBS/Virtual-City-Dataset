@@ -1,0 +1,82 @@
+Day,Attack,ATT&CK_ID,Target,Timestamp,Type
+1,NMAP Port Scans,T1046,192.168.57.0/24,2024-09-04 17:10:00-07:00,unique
+1,NMAP Port Scans,T1046,192.168.57.0/24,2024-09-04 17:45:00-07:00,unique
+1,NMAP Port Scans,T1046,192.168.57.0/24,2024-09-04 17:46:00-07:00,unique
+1,NMAP Port Scans,T1046,192.168.57.0/24,2024-09-04 17:59:00-07:00,unique
+1,Broadcast Message Spoofing,T1557.001,192.168.57.0/24,2024-09-04 17:21:00-07:00,unique
+1,MassScan Port Scans,T1046,192.168.57.0/24,2024-09-04 17:32:00-07:00,unique
+1,MassScan Port Scans,T1046,192.168.57.0/24,2024-09-04 17:39:00-07:00,unique
+1,SMB Enumeration,T1021.002,192.168.57.0/24,2024-09-04 18:10:00-07:00,unique
+1,System Enumeration,T1082,192.168.57.8,2024-09-04 18:22:00-07:00,unique
+1,Postgres Login Attempts,T1078.003,192.168.57.2,2024-09-04 17:30:00-07:00,unique
+1,Password Spraying,T1059.01,192.168.57.0/24,2024-09-04 18:40:00-07:00,unique
+1,SSH Brute Force Attack,T1110,192.168.57.0/24,2024-09-04 18:46:00-07:00,unique
+1,SMB Signing Enumeration,T1021.002,192.168.57.0/24,2024-09-04 18:54:00-07:00,unique
+1,Directory Busting,T1083,192.168.57.2,2024-09-04 18:54:00-07:00,unique
+1,Local User Password Reuse,T1078.003,192.168.57.0/24,2024-09-04 19:40:00-07:00,unique
+1,Authenticated SMB Share Enumeration,T1021.002,192.168.57.0/24,2024-09-04 19:47:00-07:00,unique
+1,Lateral Movement - PSExec,T1569,192.168.57.13,2024-09-04 20:09:00-07:00,unique
+1,Lateral Movement - WinRM,T1021.006,192.168.57.6,2024-09-04 20:22:00-07:00,unique
+1,Enable Windows RDP via Evil-WinRM,T1021.001,192.168.57.6,2024-09-04 20:25:00-07:00,unique
+1,Meterpreter Keylogger,T1056.001,192.168.57.6,2024-09-04 20:47:00-07:00,unique
+1,Meterpreter - LSASS Dump,T1003,192.168.57.6,2024-09-04 20:50:00-07:00,unique
+1,Task Manager - LSASS Dump,T1003,192.168.57.6,2024-09-04 20:57:00-07:00,unique
+2,NMAP Port Scans,T1046,192.168.57.0/24,2024-09-05 17:10:00-07:00,unique
+2,NMAP Port Scans,T1046,192.168.57.0/24,2024-09-05 17:19:00-07:00,unique
+2,SMB Enumeration,T1021.002,192.168.57.0/24,2024-09-05 17:22:00-07:00,unique
+2,Broadcast Message Spoofing,T1557.001,192.168.57.0/24,2024-09-05 17:34:00-07:00,unique
+2,SMB Relay,T1557.001,192.168.57.4,2024-09-05 17:51:00-07:00,unique
+2,SMB Relay,T1557.001,192.168.57.5,2024-09-05 17:51:00-07:00,unique
+2,SMB Relay,T1557.001,192.168.57.6,2024-09-05 17:51:00-07:00,unique
+2,SMB Relay,T1557.001,192.168.57.10,2024-09-05 17:51:00-07:00,unique
+2,Pass-the-Hash Attack,T1550.002,192.168.57.0/24,2024-09-05 17:51:00-07:00,unique
+2,Pass-the-Hash Attack,T1550.002,192.168.57.0/24,2024-09-05 18:08:00-07:00,unique
+2,Local Security Authority – Credential Dumping,T1003.004,192.168.57.6,2024-09-05 18:10:00-07:00,unique
+2,Brute Force Password Attack,T1110,192.168.57.11,2024-09-05 18:23:00-07:00,unique
+2,Password Spraying Attack,T1059.01,192.168.57.0/24,2024-09-05 18:30:00-07:00,unique
+2,Command and Control – Payload Execution,T1204.002,192.168.57.5,2024-09-05 19:13:00-07:00,unique
+2,Command and Control – “getuid” Command,T1033,192.168.57.5,2024-09-05 19:19:00-07:00,unique
+2,Lateral Movement – PSExec64,T1569,192.168.57.6,2024-09-05 19:19:00-07:00,unique
+2,Screenshot Capture via C2,T1113,192.168.57.5,2024-09-05 19:27:00-07:00,unique
+2,Screenshot Capture via C2,T1113,192.168.57.6,2024-09-05 19:27:00-07:00,unique
+2,Screenshot Capture via C2,T1113,192.168.57.5,2024-09-05 19:32:00-07:00,unique
+2,Screenshot Capture via C2,T1113,192.168.57.6,2024-09-05 19:32:00-07:00,unique
+2,Mimikatz – Credential Dumping,T1003,192.168.57.5,2024-09-05 19:34:00-07:00,unique
+2,Mimikatz – Credential Dumping,T1003,192.168.57.6,2024-09-05 19:34:00-07:00,unique
+2,Mimikatz – Credential Dumping,T1003,192.168.57.5,2024-09-05 19:48:00-07:00,unique
+2,Mimikatz – Credential Dumping,T1003,192.168.57.6,2024-09-05 19:48:00-07:00,unique
+2,Reflective Code Loading,T1620,192.168.57.5,2024-09-05 19:41:00-07:00,unique
+2,Reflective Code Loading,T1620,192.168.57.6,2024-09-05 19:41:00-07:00,unique
+2,Reflective Code Loading,T1620,192.168.57.5,2024-09-05 19:44:00-07:00,unique
+2,Reflective Code Loading,T1620,192.168.57.6,2024-09-05 19:44:00-07:00,unique
+2,Port Scanning via C2 Agent,T1046,192.168.57.0/24,2024-09-05 19:54:00-07:00,unique
+2,PowerShell via C2 Agent,T1059.001,192.168.57.6,2024-09-05 20:12:00-07:00,unique
+2,Importing a Malicious PowerShell Script,T1082,192.168.57.4,2024-09-05 20:15:00-07:00,unique
+2,Host Enumeration via PowerShell – Get-NetLoggedon and Test-AdminAccess,T1082,192.168.57.6,2024-09-05 20:25:00-07:00,unique
+2,Host Enumeration via PowerShell – Get-NetLoggedon and Test-AdminAccess,T1082,192.168.57.6,2024-09-05 20:27:00-07:00,unique
+2,Host Enumeration via PowerShell – Invoke-AllChecks,T1082,192.168.57.6,2024-09-05 20:31:00-07:00,unique
+2,IPv6 – Adversary-in-the-Middle Attack,T1557.003,192.168.57.0/24,2024-09-05 20:45:00-07:00,unique
+3,Network Sniffing - TCPdump,T1040,192.168.57.0/24,2024-09-06 17:21:00-07:00,unique
+3,NMAP Port Scans,T1046,192.168.57.0/24,2024-09-06 17:29:00-07:00,unique
+3,Remote System Discovery – Nmap Port Scans,T1046,192.168.57.0/24,2024-09-06 17:35:00-07:00,unique
+3,Network Sniffing – Responder Analyze Mode,T1040,192.168.0.0/16,2024-09-06 17:45:00-07:00,continued
+3,Network Sniffing – Responder Analyze Mode,T1040,192.168.0.0/16,2024-09-06 17:50:00-07:00,continued
+3,SMB Enumeration,T1021.002,192.168.57.0/24,2024-09-06 18:00:00-07:00,continued
+3,SMB Enumeration,T1021.002,192.168.57.0/24,2024-09-06 18:19:00-07:00,continued
+3,Broadcast Message Spoofing,T1557.001,192.168.57.0/24,2024-09-06 17:58:00-07:00,unique
+3,IPv6 – Adversary-in-the-Middle-Attack,T1557.003,192.168.57.0/24,2024-09-06 18:07:00-07:00,continued
+3,IPv6 – Adversary-in-the-Middle-Attack,T1557.003,192.168.57.0/24,2024-09-06 18:35:00-07:00,continued
+3,SMB Relay,T1557.001,192.168.57.0/24,2024-09-06 18:07:00-07:00,continued
+3,SMB Relay,T1557.001,192.168.57.0/24,2024-09-06 18:35:00-07:00,continued
+3,Password Spraying Attack – Credential Access SMB,T1110.003,192.168.57.0/24,2024-09-06 18:50:00-07:00,continued
+3,Password Spraying Attack – Credential Access SMB,T1110.003,192.168.57.0/24,2024-09-06 19:04:00-07:00,continued
+3,OS Credential Dumping: LSASS Memory,T1003.001,192.168.57.6,2024-09-06 19:12:00-07:00,unique
+3,OS Credential Dumping – Mimikatz Offline,T1003,192.168.57.6,2024-09-06 19:12:00-07:00,unique
+3,Pass-the-Hash Attack,T1550.002,192.168.57.0/24,2024-09-06 20:36:00-07:00,unique
+3,System Network Discovery: Network Vulnerability Scanning - Nessus,T1110.003,192.168.57.0/24,2024-09-06 18:52:00-07:00,continued
+3,System Network Discovery: Network Vulnerability Scanning - Nessus,T1110.003,192.168.57.0/24,2024-09-06 19:09:00-07:00,continued
+3,System Network Discovery: Network Vulnerability Scanning - Nessus,T1110.003,192.168.57.0/24,2024-09-06 19:24:00-07:00,continued
+3,System Network Discovery: Network Vulnerability Scanning - Nessus,T1110.003,192.168.57.0/24,2024-09-06 19:35:00-07:00,continued
+3,Valid Accounts: Default Accounts - SSH,T1078.003,192.168.57.12,2024-09-06 19:56:00-07:00,unique
+3,System Information Discovery – Ubuntu Host,T1082,192.168.57.12,2024-09-06 19:57:00-07:00,unique
+3,Password Spraying Attack – Credential Access HTTP/HTTPS,T1110.003,172.26.15.122,2024-09-06 20:48:00-07:00,unique
