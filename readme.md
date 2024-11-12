@@ -14,7 +14,10 @@ Network logs are collected using Zeek( previously bro) in Security Onion for sev
 - Stats
 - Weird
 
-### Instruction 
+## Instruction 
 1. Use `process_raw_zeek_log.ipynb` notebook to get tain data (benign.csv) and test data (malacious.csv)
 2. Use `process_attacks.ipynb` notebook to get all_attacks.csv which has attacks and their corresponding details
 3. Use `assign_labelipynb` notebook to assign label to each events and produce training and test dataset for [CAPTOR](https://github.com/BoiseStateAIBS/CAPTOR)
+
+## Acknowledgement
+This research was funded by a National Centers of Academic Excellence in Cybersecurity grant H98230-22-1-0300, which is part of the National Security Agency.
